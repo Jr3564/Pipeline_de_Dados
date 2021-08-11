@@ -4,7 +4,7 @@ Sabendo que um dos 3 requisitos que temos para estudar na Trybe é ter o ensino 
 
 
 
-![](/home/rodolfo/Documentos/Desafio_Pipeline_de_Dados/Pipeline_de_Dados/images/top_10.png)
+![](./images/top_10.png)
 
 
 
@@ -15,7 +15,7 @@ Obs:
 
 Um dos nossos principais valores é a diversidade. É muito importante sabermos a distribuição de pessoas de todas as cores/raças para diminuir igualdades. Qual a distribuição de cores/raças (Branca, Pretas, Pardas, Amarelas e Indígenas) entre os estados (pode ser apenas a sigla)?
 
-![](/home/rodolfo/Documentos/Desafio_Pipeline_de_Dados/Pipeline_de_Dados/images/distribuicao.png)
+![](./images/distribuicao.png)
 
 
 
