@@ -8,17 +8,19 @@
 
   Utilizei um algoritimo para mapear e as tabelas auxiliares e trazer as colunas nescessárias. Subi as bases para buckets no AWS S3. Utilizei o crawler do AWS Glue para raspar a base e criar um banco de dados no AWS Athena, onde fiz as querys para apresentar os resultados.
 
-  ![](/home/rodolfo/Documentos/Desafio_Pipeline_de_Dados/Pipeline_de_Dados/images/sem_lambda.png)
+  ![](./images/sem_lambda.png)
 
 - ##### Com base na(s) tabela(s) consolidada(s), quais queries você utilizou para responder às perguntas acima?
 
   Para a estimativa de distribuição de cor/raça por estado, utilizei a tabela principal extraida da base. Fazendo joins com as tabelas auxiliares onde estão as nomenclatura das chaves.	
 
-  ![](/home/rodolfo/Documentos/Desafio_Pipeline_de_Dados/Pipeline_de_Dados/images/query_distribuicao.png)
+  ![](./images/query_distribuicao.png)
 
   
 
-  E para as 10 cidades com os alunos do nono ano também foi extraído da base utilizando de joins para nomear os campos.  	![](/home/rodolfo/Documentos/Desafio_Pipeline_de_Dados/Pipeline_de_Dados/images/top_10_query.png)
+  E para as 10 cidades com os alunos do nono ano também foi extraído da base utilizando de joins para nomear os campos.
+  
+  ![](./images/top_10_query.png)
 
 - ##### Quais dados você incluiria na(s) tabela(s) consolidada(s) e que seriam interessantes para as pessoas analistas usarem? e qual a razão delas?
 
