@@ -6,7 +6,7 @@
 
 Minha primeira ideia foi fazer um dump das tabelas para um banco de dados. Mas estava apresentando muitos erros. Então decidi mapear os dados para deixá-los melhor estruturados.
 
-![Processamento local](./images/processamento_local.png)
+![Processamento local](./images/Peek 10-08-2021 16-55.gif)
 
 Na tentativa de fazer um algoritmo para mapear os dados utilizando o processamento local, em python. O primeiro desafio foi a dimensão dos arquivos pois não havia memória suficiente para fazer de um jeito instantâneo. Uma solução simples foi varrer o arquivo linha por linha persistindo no banco. Deixei rodando o algoritmo em quando buscava outra solução.
 
