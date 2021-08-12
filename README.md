@@ -16,7 +16,12 @@ Os desafios estão solucionados nos arquivos com extensão markdown. Esse format
 - [Resultado completo das queries](./data/query_results_athena)
 - [Código utilizado](./code)
 
-
+---
+### Em andamento
+  
+  - Refatoração do algoritmo.
+    - [ ] Criando estruturas de dados
+    - [ ] Implementar Iterator.
 ---
 
 Uma grande motivação nesse projeto, além de tentar uma vaga de engenheiro de dados, obviamente. Foi o desafio. E em algum momento, no meio do projeto, você pode se perguntar: não era só fazer um dump e normalizar as tabelas ? Também acho que seria mais fácil assim. E já fiz isso uma vez em um outro projeto o  [One_for_all](https://github.com/Jr3564/Dump-normaliza-o-filtros-Spotify). Mas percebi que aprenderia mais utilizando os serviços da AWS. Algo novo pra mim. Não foi fácil. Até estourei meu free tier de armazenamento. Mas no fim deu tudo certo.
