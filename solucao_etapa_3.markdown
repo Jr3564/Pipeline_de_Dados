@@ -9,6 +9,7 @@ Sabendo que um dos 3 requisitos que temos para estudar na Trybe é ter o ensino 
  - [Query utilizada](./data/query_results_athena/top_10_municipios.sql)
  - [Resultado completo](./data/query_results_athena/top_10_municipios.csv)
 
+---
 
 Um dos nossos principais valores é a diversidade. É muito importante sabermos a distribuição de pessoas de todas as cores/raças para diminuir igualdades. Qual a distribuição de cores/raças (Branca, Pretas, Pardas, Amarelas e Indígenas) entre os estados (pode ser apenas a sigla)?
 
