@@ -18,5 +18,6 @@ Um dos nossos principais valores é a diversidade. É muito importante sabermos 
  - [Query utilizada](./data/query_results_athena/estimativa_cor_raca.sql)
  - [Resultado completo](./data/query_results_athena/distribuicao_cor_raca_por_uf.csv)
 
+---
    
 
