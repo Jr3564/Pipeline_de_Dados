@@ -14,7 +14,7 @@
 
   Para a estimativa de distribuição de cor/raça por estado, utilizei a tabela principal extraida da base. Fazendo joins com as tabelas auxiliares onde estão as nomenclatura das chaves.	
 
-  ```
+  ```sql
   
   SELECT mun.no_uf AS UF, cor.cor_raca_name AS cor_raca, COUNT(*) AS quantidade_de_pessoas
   FROM microdadoscensoescolar AS cen
@@ -31,7 +31,7 @@
 
   E para as 10 cidades com os alunos do nono ano também foi extraído da base utilizando de joins para nomear os campos.
 
-  ```
+  ```sql
   
   SELECT mun.NO_MUNICIPIO AS municipio, COUNT(cen.CO_MUNICIPIO) AS quantidade
   FROM microdadoscensoescolar AS cen
