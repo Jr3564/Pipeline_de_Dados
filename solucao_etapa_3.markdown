@@ -6,24 +6,16 @@ Sabendo que um dos 3 requisitos que temos para estudar na Trybe é ter o ensino 
 
 ![](./images/top_10.png)
 
+ - [Query utilizada](./data/query_results_athena/top_10_municipios.sql)
+ - [Resultado completo](./data/query_results_athena/top_10_municipios.csv)
 
-
-Obs: 
-
- - O resultado completo das querys está em ./data/query_results_athena/top_10_municipios.csv
- - As querys utilizadas estão em ./data/query_results_athena/top_10_municipios.sql
 
 Um dos nossos principais valores é a diversidade. É muito importante sabermos a distribuição de pessoas de todas as cores/raças para diminuir igualdades. Qual a distribuição de cores/raças (Branca, Pretas, Pardas, Amarelas e Indígenas) entre os estados (pode ser apenas a sigla)?
 
 ![](./images/distribuicao.png)
 
-
-
-Obs: 
-
- - O resultado completo das querys está em . /data/query_results_athena/distribuicao_cor_raca_por_uf.csv
-
- - As querys utilizadas estão em ./data/query_results_athena/estimativa_cor_raca.sql
+ - [Query utilizada](./data/query_results_athena/estimativa_cor_raca.sql)
+ - [Resultado completo](./data/query_results_athena/distribuicao_cor_raca_por_uf.csv)
 
    
 
