@@ -13,5 +13,5 @@ Os desafios estão solucionados nos arquivos com extensão markdown. Esse format
   - [x] [Etapa 3](./solucao_do_desafio.markdown)
   - [x] [Etapa 4](./solucao_do_desafio.markdown)
 - [Queries utilizadas](./data/queries_athena)
-- [Resultados completos das queries](./data/query_results_athena)
+- [Resultado completo das queries](./data/query_results_athena)
 - [Código utilizado](./code)
