@@ -14,13 +14,35 @@
 
   Para a estimativa de distribuição de cor/raça por estado, utilizei a tabela principal extraida da base. Fazendo joins com as tabelas auxiliares onde estão as nomenclatura das chaves.	
 
-  ![](./images/query_distribuicao.png)
+  ```
+  
+  SELECT mun.no_uf AS UF, cor.cor_raca_name AS cor_raca, COUNT(*) AS quantidade_de_pessoas
+  FROM microdadoscensoescolar AS cen
+  JOIN tabela_auxiliar_municipios_ufs AS mun
+  	ON cen.co_uf = mun.co_uf
+  JOIN tabela_auxiliar_cor_raca AS cor
+  	ON cor.tp_cor_raca = cen.tp_cor_raca
+  GROUP BY cor.cor_raca_name, mun.no_uf
+  ORDER BY mun.no_uf, quantidade_de_pessoas, cor.cor_raca_name DESC;
+  
+  ```
 
   
 
   E para as 10 cidades com os alunos do nono ano também foi extraído da base utilizando de joins para nomear os campos.
+
+  ```
   
-  ![](./images/top_10_query.png)
+  SELECT mun.NO_MUNICIPIO AS municipio, COUNT(cen.CO_MUNICIPIO) AS quantidade
+  FROM microdadoscensoescolar AS cen
+  JOIN tabela_auxiliar_municipios_ufs AS mun ON cen.CO_MUNICIPIO = mun.CO_MUNICIPIO
+  WHERE cen.TP_ETAPA_ENSINO = 41
+  GROUP BY mun.NO_MUNICIPIO
+  ORDER BY quantidade DESC LIMIT 10;
+  
+  ```
+
+  
 
 - ##### Quais dados você incluiria na(s) tabela(s) consolidada(s) e que seriam interessantes para as pessoas analistas usarem? e qual a razão delas?
 
