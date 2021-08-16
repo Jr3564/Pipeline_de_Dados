@@ -22,6 +22,7 @@ Os desafios estão solucionados nos arquivos com extensão markdown. Esse format
   - Refatoração do algoritmo.
     - [ ] Implementar Iterator.
     - [ ] Criar meu proprio crawler.
+    - [ ] Gerar Dump.
     - [ ] Lambda para descompactar na AWS.
 ---
 
